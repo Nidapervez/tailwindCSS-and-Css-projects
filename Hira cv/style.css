@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #4a90e2;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.degree {
+    margin-bottom: 20px;
+}
+
+.job h3, .degree h3 {
+    color: #4a90e2;
+}
+
+.job p, .degree p {
+    margin: 5px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.contact-info, .experience, .workshops, .skills, .languages, .technology, .profile-info, .education, .projects, .certification {
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification, .projects {
+    background: #eaf2f8;
+}
+
+.skills, .languages, .technology, .profile-info {
+    background: #f9f9f9;
+}

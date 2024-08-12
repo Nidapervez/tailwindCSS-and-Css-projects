@@ -1,0 +1,25 @@
+
+body{
+    height:1000px;
+    width: 700px;
+   padding-left: 350px;
+}
+
+.container{
+    background-color:plum;
+ color: white;
+ 
+}
+.rio{
+border: 2px solid black;
+ 
+color: black;
+font-size: 30px;
+text-align: center;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200,1fr));
+}
+
+
